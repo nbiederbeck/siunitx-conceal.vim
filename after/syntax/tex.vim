@@ -43,7 +43,6 @@ syn match texMathSymbol '\\second' contained conceal cchar=s
 
 " Coherent derived units in the SI with special names and symbols
 " syn match texMathSymbol '\\becquerel' contained conceal cchar=Bq
-syn match texMathSymbol '\\degreeCelsius' contained conceal cchar=℃
 syn match texMathSymbol '\\coulomb' contained conceal cchar=C
 syn match texMathSymbol '\\farad' contained conceal cchar=F
 " syn match texMathSymbol '\\gray' contained conceal cchar=Gy
@@ -68,6 +67,7 @@ syn match texMathSymbol '\\watt' contained conceal cchar=W
 " Non-SI units accepted for use with the International System of Units
 syn match texMathSymbol '\\day' contained conceal cchar=d
 syn match texMathSymbol '\\degree' contained conceal cchar=°
+syn match texMathSymbol '\\degreeCelsius' contained conceal cchar=℃
 " syn match texMathSymbol '\\hectare' contained conceal cchar=ha
 syn match texMathSymbol '\\hour' contained conceal cchar=h
 syn match texMathSymbol '\\litre' contained conceal cchar=l
