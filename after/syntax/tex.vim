@@ -43,7 +43,7 @@ syn match texMathSymbol '\\second' contained conceal cchar=s
 
 " Coherent derived units in the SI with special names and symbols
 " syn match texMathSymbol '\\becquerel' contained conceal cchar=Bq
-syn match texMathSymbol '\\degreeCeslius' contained conceal cchar=℃
+syn match texMathSymbol '\\degreeCelsius' contained conceal cchar=℃
 syn match texMathSymbol '\\coulomb' contained conceal cchar=C
 syn match texMathSymbol '\\farad' contained conceal cchar=F
 " syn match texMathSymbol '\\gray' contained conceal cchar=Gy
